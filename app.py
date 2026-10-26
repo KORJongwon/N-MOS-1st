@@ -15,8 +15,7 @@ DEMO = BASE / 'sample_data'
 st.set_page_config(page_title='NMOS 신뢰성 선행 진단 | AX 재구현',page_icon='🔬',layout='wide')
 st.title('🔬 NMOSFET 이상 진단 및 공정 원인 탐색')
 st.caption('Python 판정 → Golden Wafer Accuracy → Gauge R&R 및 P/T → 125개 측정 데이터 → 위치별 분석 → 문서 검색(RAG) 및 선택적 LLM')
-st.warning('이 앱은 경진대회 발표 내용을 바탕으로 나중에 보완한 **재구현 및 확장 버전**입니다. '
-           '샘플 데이터와 공정 이력은 전부 시연용 가상 데이터이며, 경진대회 당시 실측 자료나 원본 개발 이력을 증명하지 않습니다.')
+st.warning('이 앱은 경진대회 발표 내용을 바탕으로 나중에 보완한 **재구현 및 확장 버전**입니다. ')
 
 
 def read_csv(uploaded, fallback: Path | None):
