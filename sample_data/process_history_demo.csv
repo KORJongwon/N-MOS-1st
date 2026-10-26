@@ -1,0 +1,7 @@
+﻿case_id,process,parameter,target,observed,note
+CASE1_vth_high,Halo implant,Delivered Dose (normalized),1.0,1.08,"시연용 입력, 실제 이력 아님"
+CASE1_vth_high,Ion implanter,Beam Current (normalized),1.0,1.05,"시연용 입력, 실제 이력 아님"
+CASE2_idsat_high,Gate lithography,Gate CD (normalized),1.0,0.95,"시연용 입력, 실제 이력 아님"
+CASE3_idsat_spread,Gate etch,CD spatial nonuniformity (normalized),1.0,1.3,"시연용 입력, 실제 이력 아님"
+CASE4_both_low,Anneal,Peak Temperature (normalized),1.0,0.98,"시연용 입력, 실제 이력 아님"
+CASE5_idoff_high,Halo implant,Tilt angle (normalized),1.0,1.04,"시연용 입력, 실제 이력 아님"
